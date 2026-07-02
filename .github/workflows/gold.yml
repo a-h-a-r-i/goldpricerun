@@ -21,5 +21,5 @@ jobs:
 
       - run: node index.js
         env:
-          BOT_TOKEN: ${{ secrets.8728146003:AAEE7PmhwkR3DC1fQslT5uQjTXHHfC3MXWk }}
-          CHAT_ID: ${{ secrets.6214004436 }}
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+    CHAT_ID: ${{ secrets.CHAT_ID }}
